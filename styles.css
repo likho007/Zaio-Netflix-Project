@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;1,300&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    font-size: 16px;
+    text-decoration: none
+}
+
+.banner-wrap {
+    background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/530fc327-2ddb-4038-a3f0-2da2d9ccede1/7eec45a8-a5fb-4ec4-b0fc-f626151ea149/ZA-en-20230619-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: whitesmoke;
+    background-position: center;
+    height: 93vh;
+    position: relative;
+    z-index: 1;
+} 
+
+.overlay {
+    height: 100%;
+    width: 100%;
+    background: black;
+    position: absolute;
+    top: 0;
+    opacity: 61%;
+    z-index: -1;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+}
+
+.navbar {
+    height: 86px;
+    /* padding: 35px 70px 35px 50px; */
+    margin: 0px 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: all 1s ease;
+}
+
+.navbar svg {
+    height: 40px;
+    width: 148px;
+}
+
+
+.navbar  a {
+    padding: 7px 17px;
+    color: white;
+    background: red;
+    border-radius: 3px;
+    /* text-decoration: none; */
+}
+
+.banner-container {
+    height: calc(100% - 86px);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* margin: 67.400px 32px; */
+}
+
+.banner-container h1 {
+    font-size: 3.3rem;
+}
+
+.banner-container h1:hover {
+    font-size: 4rem;
+    transition: 1s ease-in-out;
+}
+
+.banner-container h2 {
+    font-weight: 300;
+    font-size: 25px;
+    margin-top: 16px;
+    transition: 1s ease-in-out;
+}
+
+.banner-container h2:hover {
+    font-size: 50px;
+}
+
+.form-tiltle {
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.875rem;
+    transition: 1s ease-in-out;
+}
+
+.form-tiltle:hover {
+    font-size: 1.50rem;
+}
+
+/* .the-form {
+    margin-top: 16px;
+    margin-left: 163.4px;
+    margin-right: 163.4px;
+    width: 586px;
+    height: 56px;
+} */
+
+.the-form {
+    height: 70px;
+    display: flex;
+}
+
+.the-form input {
+    padding: 24px 16px 8px 16px;
+    width: 383.86px;
+    height: 56px;
+    /* opacity: 80%; */
+    /* background: black; */
+    border: none;
+}
+
+.the-form button {
+    padding: 12px 24px;
+    background-color: red;
+    color: white;
+    height: 56px;
+    width: 194.74px;
+    margin-left: 8px;
+    border: none;
+    font-size: 24px;
+    transition: 1.5s ease;
+}
+
+
+/* .info-container {
+    background-color: black ;
+    height: 78.5vh;
+    padding: 72px 0px 72px 0px;
+    display: flex;
+    flex-direction: column;
+} */
+
+.info-container {
+    background: black;
+    color: white;
+    padding: 70px 45px;
+    display: flex;
+    border-top: 7.5px solid  #3d3b3b;
+}
+
+
+.content {
+    width: 955.2;
+    height: 357.7;
+    margin: 0px 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.content h1 {
+    color: white;
+    font-size: 3.3rem;
+    transition: all 1s ease-in-out;
+}
+
+.content h1:hover {
+    color: blue;
+    cursor: pointer;
+}
+
+.content p {
+    color: white;
+    font-size: 24px;
+    font-weight: 400px;
+}
+
+.TV {
+    position: relative;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.TV img {
+    z-index: 1; /*Makes the img element appear infront of the vide0 element*/
+}
+
+.TV video {
+    position: absolute;
+}
+
+/* 
+.video {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    position: absolute;
+    top: 110%;
+    left: 50%;
+    : 50%;
+}
+ */
+
+.footer {
+    border-top: 7.5px solid  #3d3b3b;
+    background: black;
+}
+
+.footer-items {
+    margin: 0px 170.062px;
+    padding: 60px 0px;
+}
+
+.footer-top {
+    margin: 12px 0px;
+}
+
+.footer ul li, .questions {
+    color: #757575;
+}
+
+.footer ul li {
+    font-size: 14px;
+    line-height: 2;
+}
+
+.footer ul li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+.questions:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.footer-links {
+    list-style-type: none;
+    padding: 24px 0px 12px 0px;
+    columns: 4;
+    font-size: 14px;
+}
+
+.languages {
+    height: 32px;
+    width: 142px;
+    color: #757575;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border: 1px solid #999999;
+    padding: 0px 10px;
+    margin-top: 20px;
+}
+
+.languages select {
+    margin-left: 10px ;
+    border: none;
+    /* appearance: none; */
+    background: black;
+    color: #999999;
+}
+
+.test {
+    display: none;
+}
+
+/* .box {
+    height: 150px;
+    width: 150px;
+    background: green;
+    position: relative;
+    top: 0;
+    left: 50%;
+} */
+/* .my-box {
+    height: 60px;
+    width: 120px;
+    background: pink;
+    border: 10px solid black;
+    margin: 20px 25px 100px 500px;
+    padding: 50px 15px 70px 20px;
+} */

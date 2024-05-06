@@ -1,0 +1,74 @@
+	    
+
+
+
+	<form>
+                <h1>Login Form</h1>
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username">
+                <br>
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password">
+                <br>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label>
+                <br>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label>
+                <br>
+                <input type="radio" id="other" name="gender" value="other">
+                <label for="other">Other</label>
+                <br>
+
+---------------------------------------------------------------------------------------------
+		(description box)
+
+                <label for="description">Description</label>
+                <textarea name="description" id="description" cols="30" rows="4"></textarea>
+                <button>LOGIN</button>
+
+            </form>
+
+------------------------------------------------------------------------------------------------------------
+		(Select element) ----- When there's multiple accounts
+
+	    <form>
+                <label for="profile">Select Profile</label>
+                <select name="profile" id="profile">
+                    <option value="Akhil">Akhil</option>
+                    <option value="Sam">Sam</option>
+                    <option value="Jane">Jane</option>
+                    <option value="Historia">Historia</option>
+                </select>
+            </form>
+
+
+------------------------------------------------------------------------------------------------------------------------------
+	
+	(HTML tables)
+
+
+<div class="my-table">
+        <thead>
+            <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    Akhil
+                </td>
+                <td>Boddu</td>
+                <td>akhil@zaio.io</td>
+            </tr>
+        </tbody>
+    </div>
+
+-------------------------------------------------------------------------------------------------------------------------------
+
+
+
+

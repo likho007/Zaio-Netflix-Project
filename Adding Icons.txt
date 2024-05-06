@@ -1,0 +1,7 @@
+ <div class="languages">
+                <i class="material-icons">language</i>
+                <select name="languages" id="languages">
+                    <option value="English"> English</option>
+                    <option value="Isixhosa">Isixhosa</option> 
+                </select>
+            </div>
